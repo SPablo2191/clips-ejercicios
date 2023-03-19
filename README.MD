@@ -26,4 +26,9 @@ member$ ?elemento ?unionf
     (printout t "UNION: " ?unionUnrepeted crlf)
     (assert (unionLists))    
 )
+(defrule encontrar-paises
+(not (paisesEncontrados))
+(bind ?paises (create$))
+
+)
 `````
